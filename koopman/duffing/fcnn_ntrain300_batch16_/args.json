@@ -1,0 +1,20 @@
+{
+    "exp_dir": "./koopman",
+    "exp_name": "duffing",
+    "model": "fcnn",
+    "ntrain": 300,
+    "ntest": 100,
+    "stride": 1,
+    "batch_size": 16,
+    "epoch_start": 0,
+    "epochs": 300,
+    "lr": 0.01,
+    "seed": 12345,
+    "plot_freq": 25,
+    "test_freq": 5,
+    "ckpt_freq": 5,
+    "notes": "",
+    "run_dir": "./koopman/duffing/fcnn_ntrain300_batch16_",
+    "ckpt_dir": "./koopman/duffing/fcnn_ntrain300_batch16_/checkpoints",
+    "pred_dir": "./koopman/duffing/fcnn_ntrain300_batch16_/predictions"
+}
